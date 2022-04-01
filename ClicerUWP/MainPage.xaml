@@ -1,0 +1,24 @@
+﻿<Page
+    x:Class="ClicerUWP.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ClicerUWP"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Button x:Name="button" Content="Нажми" HorizontalAlignment="Left" Margin="10,388,0,0" VerticalAlignment="Top" Height="199" Width="412" FontSize="72" Click="button_Click"/>
+        <TextBlock x:Name="scoreValue" HorizontalAlignment="Left" Margin="207,14,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" FontSize="36" Width="213"/>
+        <TextBlock x:Name="scoreValueText" HorizontalAlignment="Left" Margin="10,14,0,0" TextWrapping="Wrap" Text="Счет(Очки):" VerticalAlignment="Top" FontSize="36"/>
+        <TextBlock x:Name="skillValue" HorizontalAlignment="Left" Margin="155,97,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" FontSize="36" Width="267"/>
+        <TextBlock x:Name="skillValueText" HorizontalAlignment="Left" Margin="10,97,0,0" TextWrapping="Wrap" Text="Поинты:" VerticalAlignment="Top" FontSize="36"/>
+        <TextBlock x:Name="buySkillsText" HorizontalAlignment="Left" Margin="20,181,0,0" TextWrapping="Wrap" Text="Купите скиллы за очки: " VerticalAlignment="Top" FontSize="24"/>
+        <Button x:Name="buySkills" Content="Купить" Margin="316,180,0,0" VerticalAlignment="Top" Click="buySkills_Click"/>
+        <TextBlock x:Name="skillPriceText" HorizontalAlignment="Left" Margin="316,213,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="64"/>
+        <TextBlock x:Name="buySkillText2" HorizontalAlignment="Left" Margin="28,250,0,0" TextWrapping="Wrap" Text="+5 очков в сек." VerticalAlignment="Top" Height="35" Width="147" FontSize="16" />
+        <Button x:Name="buySkillButton" Content="Купить" Margin="316,246,0,0" VerticalAlignment="Top" Click="buySkillButton_Click"/>
+        <TextBlock x:Name="skill2PriceText" HorizontalAlignment="Left" Margin="319,278,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+
+    </Grid>
+</Page>
